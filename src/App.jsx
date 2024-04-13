@@ -2,7 +2,7 @@ import { useState } from 'react'
 import About from './componets/About';
 import Portfolio from '../src/componets/Portfolio';
 import Contact from '../src/componets/Contact';
-import Resume from '../src/componets/Resume';
+import Resume from './componets/Resume';
 import Navbar from './componets/Navbar';
 import Home from './componets/Home';
 import {BrowserRouter as Router, Route, Routes } from "react-router-dom";

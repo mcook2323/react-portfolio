@@ -21,7 +21,7 @@ function Footer() {
       <Content>
         <p>
           <strong>My Full Stack Development Portfolio</strong> - a React site by{" "}
-          <a href="" target="_blank" rel="noreferrer">
+          <a href="https://github.com/mcook2323" target="_blank" rel="noreferrer">
             Matt Cook
           </a>
           .
@@ -29,15 +29,15 @@ function Footer() {
         <hr />
         <p>
           <a
-            href="/"
+            href="https://www.linkedin.com/"
             target="_blank"
             rel="noreferrer"
           >
             LinkedIn
           </a>{" "}
           |{" "}{" "}
-          <a href="" target="_blank" rel="noreferrer">
-            Something
+          <a href="https://stackoverflow.com/?newreg=532d27c0694f4960bc48c5e98e9b7756" target="_blank" rel="noreferrer">
+            Stack Overflow
           </a>
         </p>
       </Content>
