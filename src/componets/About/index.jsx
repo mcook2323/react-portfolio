@@ -2,40 +2,35 @@ import React from "react";
 import styled from 'styled-components';
 
 const AboutContainer = styled.div`
-  
-  h3{
-    padding-top: 100px;
-    margin: 0;
-  }
-  h1{
-    padding: 0;
-    margin:0; 
-  }
+display: flex;
+align-items: center;
+
+@media (max-width: 768px) {
+  flex-direction: column;
+  align-items: center;
   p{
-    width: 200px;
-    padding-top: 10px;
-    text-allign: center;
+    font-size: 1.2rem;
   }
-  img{
-    width: 300px;
+
+  img {
+    margin-bottom: 20px;
   }
+}
 `;
 
-
+const TextContainer = styled.div`
+  width: 200px;
+`;
 
 function About() {
   return( 
     <AboutContainer>
-      <div>
-        <div>
-          <h3>Let me introduce myself</h3>
-        </div>
-        <div>
-          <h1>About Me</h1>
-          <img src="/images/ProfilePic.jpg"/>
-          <p><strong>I am a Full Stack student working out of Columbus Ohio. I love the unique challenges of making code work in specific ways.</strong></p>
-        </div>
-      </div>
+      <img src="/images/ProfilePic.jpg" alt="Profile"/>
+      <TextContainer>
+        <h3>Let me introduce myself</h3>
+        <h1>About Me</h1>
+        <p><strong>I am a Full Stack student working out of Columbus Ohio. I love the unique challenges of making code work in specific ways.</strong></p>
+      </TextContainer>
     </AboutContainer>
   )
 }
