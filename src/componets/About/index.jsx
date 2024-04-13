@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const AboutContainer = styled.div`
   
   h3{
-    padding: 0;
+    padding-top: 100px;
     margin: 0;
   }
   h1{

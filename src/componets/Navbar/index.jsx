@@ -43,6 +43,19 @@ const NavBarStyles = styled.div`
     &.active {
       color: #fff;
     }
+    @media (max-width: 768px) {
+      position: static;
+      padding: 0.5rem 0;
+  
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      li {
+        margin-bottom: 0.5rem;
+      }
   }
   `
 ;
